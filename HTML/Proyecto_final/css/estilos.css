@@ -1,0 +1,185 @@
+/*--Alineado de la Pagina--*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #2D2D2D;
+}
+
+header, main, footer {
+	width: 90%;
+	max-width: 1000px;
+	margin: 20px auto; 
+}
+/*lO ANTERIOR es para que se limite el contenido en medio de la pantalla */
+/*El MARGIN Esta para darle un margen a la pagina que se separa de los bordes de la pantalla*/
+/* con el 20px se separa de arriba y abajo, y con auto se alinea automaticamente al centro de los 1000px*/
+
+/*-Logotipo-*/
+
+#logotipo a img {
+	width: 11.5%;
+	height: 120px;
+	float: left;
+	margin-right: 1.5%;
+	padding:0px 0px 0px 15px;
+}
+
+#logotipo2 {
+	background:#494949;
+	width:1000px;
+	height: 120px;
+}
+
+#logotipo2 p {
+	text-align: center;
+	padding:40px;
+	color: #fff;
+	font-size: 38px;
+
+}
+
+/*--Menú de navegación--*/
+
+header nav {
+	background:#fff;
+	padding: 5px 10px;
+	margin-top: 10px;
+	border-radius: 2px;
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+	box-shadow:0px 2px 5px 1px #000	;
+		-moz-box-shadow:0px 2px 5px 1px #000	;
+		-webkit-box-shadow:0px 2px 5px 1px #000	;
+	overflow: hidden; /*Esta caracteristica es muy util/Nos sirve para acomodar bien la lista y que esta no se desborde*/
+}
+
+header nav ul {
+	list-style: none;
+}
+
+header nav ul li {
+	float: right;
+}
+
+header nav ul li a {
+	padding: 10px 17px;
+	display: block; /*Para que la hitbox de los links este del tamaño del menú*/
+	color: #000;
+	text-decoration: none;
+}
+
+header nav ul li a:hover {
+	background: #62DDF4;
+	border-radius: 5px;	
+	-moz-border-radius: 5px;	
+	-webkit-border-radius: 5px;	
+}
+
+/*--Articulos--*/
+
+main .articles {
+	width: 68%;
+	float: left;
+	margin-right:2%;
+}
+/*Lo anterior es para separa los articulos del sidebar*/
+
+.color {
+	font-style:oblique;
+	color: #3B82C9;
+}
+
+main .articles article h2 {
+	padding-bottom: 6px;
+}
+
+main .articles article {
+	background: #fff;
+	padding: 20px;
+	margin-bottom: 20px; /*Para que los articulos se separen por hacia abajo ya sea del otro articulo o del pie de pagina*/
+}
+
+main .articles article p {
+	font-family: arial;
+	font-size: 17px;
+	padding-bottom: 10px;		
+}
+
+.p {
+	text-decoration:none;
+}	
+
+/*-Aside-*/
+
+aside .subaside {
+	background: #FFD54A;
+	width: 30%;
+	float: left;
+	padding: 20px;
+	box-sizing: border-box; /*Este elemento nos ayuda para acomodar bien los padding a pesar de que sale de la caja*/
+	margin-bottom:20px;
+}
+
+aside .subaside ul {
+	list-style: none;
+}
+
+aside .subaside ul li {
+	padding:7px;
+}
+
+aside .subaside ul li a{
+	text-decoration:none;
+	color:#9431CB;	
+	font-size: 18px;
+}
+
+aside .subaside ul li a:hover {
+	color: #693F80;
+	text-decoration:underline;
+}
+
+aside .subaside img {
+	width:100%;
+}
+/*-Lista de Posiciones-*/
+#tabla {
+	padding: 43px;
+}
+
+table, th, td {
+	border: 1px solid #000;
+}
+
+table tr td {
+	text-align:center;
+	font-size: 20px;
+}
+
+table tr td:hover {
+	background: #FAE300;
+	color: #000;
+}
+
+table tr td a {
+	text-decoration:none;
+	padding: 0px 10px;
+}
+
+/*Pie de pagina*/
+
+footer {
+	clear: both;
+	background: #494949;
+	text-align: center;
+	color: #fff;
+	padding: 15px;
+	box-sizing: border-box;
+	border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+	box-shadow: 0px 2px 5px 1px #000;
+}

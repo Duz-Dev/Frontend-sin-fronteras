@@ -9,5 +9,3 @@ HTML es un lenguaje de marcado que define la estructura y el contenido de una p�
 - Uso de HTML:
 HTML se utiliza en la creación de sitios web de todo tipo, desde simples páginas personales hasta complejas aplicaciones web. Es la base sobre la cual se construyen el diseño, la estructura y la funcionalidad de una página web. Junto con CSS (Cascading Style Sheets) y JavaScript, HTML forma parte del trío fundamental de tecnologías web.
 
-- Relevancia en la Web:
-La relevancia de HTML en el mundo web es innegable. Sin HTML, la web tal como la conocemos no existiría. Es el lenguaje que permite a los desarrolladores crear páginas web interactivas y accesibles para usuarios de todo el mundo. La evolución constante de HTML, con nuevas versiones y características, garantiza que siga siendo relevante y adaptable a las demandas cambiantes de la web moderna.
