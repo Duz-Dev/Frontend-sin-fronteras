@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+</head>
+
+<body>
+    <form action="index.html" method="post">
+        <ul>
+            <li>
+                <label for="name">Ingresa tu nombre:</label>
+                <input type="text" id="name" name="user_user" />
+            </li>
+            <li>
+                <label for="mail">Correo electrónico:</label>
+                <input type="email" id="mail" name="user_mail" />
+            </li>
+            <li>
+                <label for="msg">Mensaje:</label>
+                <textarea id="msg" name="user_message"></textarea>
+            </li>
+        </ul>
+    </form>
+    <hr>
+    <form action="#">
+        <p>
+            Los campos obligatorios se marcan con un
+            <abbr title="required">*</abbr>
+        </p>
+
+        <!-- Así que esto: -->
+        <div>
+            <label for="username">Nombre:</label>
+            <input type="text" name="username" />
+            <label for="username"><abbr title="required" aria-label="required">*</abbr></label>
+        </div>
+
+        <!-- sería mejor hacerlo así: -->
+        <div>
+            <label for="username">
+                <span>Nombre:</span>
+                <input id="username" type="text" name="username" />
+                <abbr title="required" aria-label="required">*</abbr>
+            </label>
+        </div>
+
+        <!-- Pero probablemente lo mejor es esto: -->
+        <div>
+            <label for="username">Nombre: <abbr title="required" aria-label="required">*</abbr></label>
+            <input id="username" type="text" name="username" required />
+        </div>
+        <input type="submit">
+    </form>
+    <hr>
+    <form>
+        <fieldset>
+            <input type="color">
+            <br>
+            <input type="date">
+            <br>
+            <input type="datetime-local">
+            <br>
+            <label for="lorem">texto</label>
+            <input type="text" name="lorem" maxlength="4" minlength="2">
+            <br>
+            <label for="">email</label>
+            <input type="email">
+            <br>
+            <input type="file">
+            <br>
+            <input type="hidden">
+            <br>
+            <input type="image" src="./gatocomuneuropeo.jpeg">
+            <br>
+            <input type="month">
+            <br>
+            <input type="number">
+            <br>
+            <input type="password">
+            <br>
+            <input type="radio">
+            <br>
+            <input type="range">
+            <br>
+            <input type="reset">
+            <br>
+            <input type="search">
+            <br>
+            <input type="submit">
+            <br>
+            <input type="tel">
+            <br>
+            <input type="text">
+            <br>
+            <input type="time">
+            <br>
+            <input type="url">
+            <br>
+            <input type="week">
+        </fieldset>
+        <fieldset>
+            <input list="browsers" type="number">
+            <datalist id="browsers">
+                <option value="1">
+                <option value="3">
+                <option value="4">
+                <option value="Opera">
+                <option value="Safari">
+            </datalist>
+            <input type="number">
+        </fieldset>
+        <fieldset>
+            <select>
+                <option value="mujer">Mujer</option>
+                <option value="no-binario">No-binario</option>
+                <option value="hombre">Hombre</option>
+            </select>
+        </fieldset>
+        <input type="submit" value="enviar">
+    </form>
+</body>
+
+</html>
