@@ -8,3 +8,19 @@ Para entrar de lleno a esta gran herramienta, te recomendó complementar lo que 
 
 ## ¿Qué es Git?
 
+### Historia y creación de Git
+
+### Ventajas de Git frente a otros sistemas de control de versiones
+
+### Conceptos básicos: repositorio, commit, branch
+
+## Instalación de Git
+
+### Instalación en Windows
+
+### Instalación en macOS
+
+### Instalación en Linux
+
+## Configuración Inicial
+

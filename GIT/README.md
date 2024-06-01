@@ -14,8 +14,25 @@ En la carpeta **apuntes** encontraras toda la teoría expuesta en este mismo cur
 
 ## Temario
 
-| N°  | Tema|
+| Modulo | Tema|
 | --- | --- |
-|1    |[Introducción](./Apuntes/01_introduccion.md)|
-|2    |próximamente|
-
+|Módulo 1| [Introducción a Git](./Apuntes/Modulo_1.md) |
+|1    |[Introducción](./Apuntes/Modulo_1.md/#qué-es-git)|
+|2    |[Instalación de Git](./Apuntes/Modulo_1.md/#instalación-de-git)|
+|3    |[Configuración Inicial](./Apuntes/Modulo_1.md/#configuración-inicial)|
+|  |  |
+|Módulo 2| [Empezando con Git](./Apuntes/Modulo_2.md) |
+|1    |[Creación de un Repositorio](./Apuntes/Modulo_2.md/#creación-de-un-repositorio)|
+|2    |[Comandos de terminal](./Apuntes/Modulo_2.md/#comandos-de-terminal)|
+|3    |[Flujo de Trabajo Básico](./Apuntes/Modulo_2.md/#flujo-de-trabajo-básico)|
+| | |
+|Módulo 3| [Ramas e Historial](./Apuntes/Modulo_3.md) |
+|1    |[Trabajando con Ramas](./Apuntes/Modulo_3.md/#trabajando-con-ramas)|
+|1    |[Fusión de Ramas](./Apuntes/Modulo_3.md/#fusión-de-ramas)|
+|2    |[Cambiando la Historia](./Apuntes/Modulo_3.md/#cambiando-la-historia)|
+|3    |[Eliminar commits](./Apuntes/Modulo_3.md/#eliminar-commits)|
+| | |
+|Módulo 4| [Introducción a GitHub](./Apuntes/Modulo_4.md) |
+|1    |[¿Qué es GitHub?](./Apuntes/Modulo_4.md/#qué-es-github)|
+|1    |[Integración con GitHub](./Apuntes/Modulo_4.md/#introducción-a-github)|
+|2    |[Trabajo Colaborativo con GitHub](./Apuntes/Modulo_4.md/#trabajo-colaborativo-con-github)|
