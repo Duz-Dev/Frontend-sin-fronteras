@@ -169,11 +169,7 @@ Los comandos iniciales que veras a continuación deberas configurarlo dependiend
 
      Este comando configura Visual Studio Code como tu editor para Git, con la opción `--wait` para que Git espere a que se cierre Visual Studio Code antes de continuar.
 
-5. **git config --global --editor**:
-   - **Argumento**: `--global --editor`
-   - **Descripción**: Este comando no es válido. Puede haber sido un error tipográfico. Para configurar el editor globalmente, se usa `git config --global core.editor`.
-
-6. **git config --global init.defaultbranch main**:
+5. **git config --global init.defaultbranch main**:
    - **Argumento**: `--global init.defaultbranch`
    - **Parámetro**: `main`
    - **Descripción**: Define la rama predeterminada al inicializar un nuevo repositorio.
@@ -185,7 +181,7 @@ Los comandos iniciales que veras a continuación deberas configurarlo dependiend
 
      Este comando establece `main` como la rama predeterminada que se creará automáticamente al inicializar un nuevo repositorio en Git.
 
-7. **git config --global core.autocrlf [opción]**:
+6. **git config --global core.autocrlf [opción]**:
    - **Argumento**: `--global core.autocrlf`
    - **Parámetro**: `[opción]` (por ejemplo, `true`, `false`, `input`)
    - **Descripción**: Configura cómo Git maneja los saltos de línea en los archivos.
@@ -194,6 +190,9 @@ Los comandos iniciales que veras a continuación deberas configurarlo dependiend
      ```bash
      git config --global core.autocrlf true
      ```
-     
+
      Este comando configura Git para convertir automáticamente los saltos de línea a CRLF al hacer checkouts en Windows y a LF al hacer checkouts en macOS/Linux. Es útil para mantener la coherencia en los archivos entre diferentes sistemas operativos.
 
+7. **git config --global --editor**:
+   - **Argumento**: `--global --editor`
+   - **Descripción**: Este comando **nos permitirá ver todas las configuraciones que hemos llevado acabo**, si lo hicimos de la manera correcta. De hecho, a partir de ahora, podrías modificar las configuraciones antes hechas si asi lo prefieres por este mismo archivo. En este mismo podríamos añadir unos cuantos *alias* especiales para git y hasta algunas cosas adicionales.
