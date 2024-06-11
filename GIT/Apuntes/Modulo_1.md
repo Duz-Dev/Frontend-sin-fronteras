@@ -48,7 +48,6 @@ Un commit es una instantánea de los cambios realizados en el proyecto en un mom
 
 Imagínate que estás escribiendo un libro. Cada vez que completas un capítulo, haces una copia de seguridad con una nota que dice "Capítulo 1 terminado". En Git, esta copia de seguridad es como un commit. Permite que, si en algún momento decides cambiar algo en el capítulo 1, puedas volver a la versión original si es necesario.
 
-
 #### Staging Area (Área de Preparación)
 
 **Definición**:
@@ -76,14 +75,13 @@ Imagina que tienes una biblioteca personal en casa, pero también una copia de e
 
 Estos términos son fundamentales para entender cómo funciona Git y cómo puede facilitar el desarrollo colaborativo de software. Con estos conceptos, puedes gestionar mejor tus proyectos, mantener un historial claro de los cambios y trabajar eficientemente con otros desarrolladores.
 
-
 ## Instalación de Git
 
 Esta herramienta puede adquiriese ya sea con ayuda de ``gestores de paquetes`` como lo es winget en windows, Homebrew en macOS y en linux con usar el gestor nativo de tu distro basta.
 
 En cualquier caso, esta el sitio oficial de git, donde podemos documentarnos y explorar todas las formas de poder instalar git.
 
-Enlace: https://www.git-scm.com/downloads
+Enlace: <https://www.git-scm.com/downloads>
 
 ### Instalación en Windows
 
@@ -94,6 +92,7 @@ Enlace: https://www.git-scm.com/downloads
 ```bash
 winget install --id Git.Git -e --source winget
 ```
+
 >Nota. En caso de querer actualizar tu version de git, en windows podrias escribir el comando: `git update-git-for-windows` para versiones de git 2.16.1 en adelante.
 
 ### Instalación en macOS
@@ -155,7 +154,7 @@ Los comandos iniciales que veras a continuación deberas configurarlo dependiend
      git config --global user.email "tu_email@example.com"
      ```
 
-    Este comando configura tu dirección de correo electrónico global para Git como "tu_email@example.com". Se utiliza para identificar tus commits.
+    Este comando configura tu dirección de correo electrónico global para Git como "<tu_email@example.com>". Se utiliza para identificar tus commits.
 
 4. **git config --global core.editor "code --wait"**:
    - **Argumento**: `--global core.editor`
